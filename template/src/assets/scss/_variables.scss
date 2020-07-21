@@ -4,10 +4,17 @@
 :root {
   // COLOR
   --color-primary: hsl(210, 100%, 63%);
-  --color-text-primary: hsl(0, 0%, 10%);
-  --color-text-secondary: hsl(0, 0%, 30%);
-  --color-text-description: hsl(0, 0%, 50%);
-  --color-bg: hsl(210, 29%, 97%);
+
+  --color-contrast-lower: hsl(0, 0%, 97%);
+  --color-contrast-low: hsl(0, 0%, 85%);
+  --color-contrast-low-alt: hsl(0, 0%, 80%);
+  --color-contrast-medium: hsl(0, 0%, 50%);
+  --color-contrast-high: hsl(0, 0%, 15%);
+  --color-contrast-higher: hsl(0, 0%, 0%);
+
+  --color-bg: hsl(0, 0%, 95%);
+  --color-text: var(--color-contrast-high);
+  --color-border: var(--color-contrast-low);
 
   // FONT
   --font-primary: 'Roboto', Helvetica, Arial, sans-serif;
@@ -21,4 +28,14 @@
   --spacing-lg: calc(8 * var(--unit-step));
   --spacing-xl: calc(9 * var(--unit-step));
   --spacing-xxl: calc(11 * var(--unit-step));
+
+  // TEXT
+  --text-base-size: 10px;
+  --text-xs: calc(var(--text-base-size) * 1);
+  --text-sm: calc(var(--text-base-size) * 1.2);
+  --text-md: calc(var(--text-base-size) * 1.4);
+  --text-lg: calc(var(--text-base-size) * 1.8);
+  --text-xl: calc(var(--text-base-size) * 2.4);
+  --text-xxl: calc(var(--text-base-size) * 3.2);
+  --text-xxxl: calc(var(--text-base-size) * 3.6);
 }
