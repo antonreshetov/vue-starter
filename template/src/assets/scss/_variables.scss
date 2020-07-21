@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+
+:root {
+  // COLOR
+  --color-primary: hsl(210, 100%, 63%);
+  --color-text-primary: hsl(0, 0%, 10%);
+  --color-text-secondary: hsl(0, 0%, 30%);
+  --color-text-description: hsl(0, 0%, 50%);
+  --color-bg: hsl(210, 29%, 97%);
+
+  // FONT
+  --font-primary: 'Roboto', Helvetica, Arial, sans-serif;
+
+  // ELEMENTS DIMENSIONS
+  --unit-step: 4px;
+
+  --spacing-xs: calc(2 * var(--unit-step));
+  --spacing-sm: calc(4 * var(--unit-step));
+  --spacing-md: calc(6 * var(--unit-step));
+  --spacing-lg: calc(8 * var(--unit-step));
+  --spacing-xl: calc(9 * var(--unit-step));
+  --spacing-xxl: calc(11 * var(--unit-step));
+}
